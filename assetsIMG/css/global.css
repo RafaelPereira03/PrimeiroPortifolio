@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+.main{
+    padding: 1rem;
+    margin:1rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+
+
+.header .title{
+    text-align: justify;
+}
+
+@media only screen and (min-width:768px) {
+    .main{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .main ::before, .main::after{
+        width: 70vw;
+    }
+
+}
